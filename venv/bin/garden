@@ -1,0 +1,4 @@
+#!/home/tv/PycharmProjects/untitled1/venv/bin/python
+# EASY-INSTALL-SCRIPT: 'Kivy-Garden==0.1.4','garden'
+__requires__ = 'Kivy-Garden==0.1.4'
+__import__('pkg_resources').run_script('Kivy-Garden==0.1.4', 'garden')
