@@ -17,7 +17,7 @@ class MyGrid(GridLayout):
         self.add_widget(self.name)
         # quick test to see if I can pre-fill the tb
         
-        self.name.text="Hello"
+        self.name.text=Test.tstring(self,"How about this?")
 
 class MyApp(App):
     title = "Testing"
