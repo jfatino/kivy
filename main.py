@@ -14,7 +14,7 @@ class MyGrid(GridLayout):
         super(MyGrid, self).__init__(**kwargs)
         self.now = datetime.now()
         Clock.schedule_interval(self.update_clock, 1)
-        self.cols = 2
+        self.cols = 1
         self.my_label = Label(text= self.now.strftime('%H:%M:%S'))
         self.add_widget(self.my_label)
         self.name = TextInput(multiline = False)
